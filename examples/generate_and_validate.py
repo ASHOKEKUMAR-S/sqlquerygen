@@ -8,7 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 DB_FILE = os.getenv("TEST_SQLITE_DB_PATH")
-NUM_QUERIES_PER_TABLE = 500
+NUM_QUERIES_PER_TABLE = 5000
 OUTPUT_FILE = "outputs/validated_queries.jsonl"
 MAX_COMPLEXITY = 6  # Maximum allowed complexity score (SELECT=1, WHERE=1, GROUP BY=1, HAVING=1, ORDER BY=1, LIMIT=0.5)
 
