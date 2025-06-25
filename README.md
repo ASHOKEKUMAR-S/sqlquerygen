@@ -94,19 +94,7 @@ qg = QueryGenerator(dialect="postgresql", safe_mode=True)
 - See [examples/example_basic.py](examples/example_basic.py) for a simple use case.
 - See [examples/example_advanced.py](examples/example_advanced.py) for advanced usage.
 
-## Contributing
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-- Fork the repository
-- Create your feature branch (`git checkout -b feature/AmazingFeature`)
-- Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-- Push to the branch (`git push origin feature/AmazingFeature`)
-- Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
